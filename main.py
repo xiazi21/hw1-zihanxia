@@ -18,7 +18,7 @@ elif temp =="D":
  g=1.0
 else :
  g=0
-print (f' Grade point for course 1 is{g}')
+print (f' Grade point for course 1 is {g}')
 temp1 =input('Enter your course 2 letter grade:')
 c2=float(input('Enter your course 2 credit:'))
 if temp1== "A":
@@ -62,4 +62,4 @@ else :
  g2=0
 print(f" Grade point for course 3 is {g2}")
 GPA=((g*c1)+(g1*c2)+(g2*c3))/(c1+c2+c3)
-print(f"Your GPA is:{GPA}")
+print(f" Your GPA is:{GPA}")
