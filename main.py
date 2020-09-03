@@ -1,5 +1,5 @@
-temp =input('Enter your course 1 letter grade:\n')
-c1=float(input('Enter your course 1 credit:\n'))
+temp =input('Enter your course 1 letter grade:')
+c1=float(input('Enter your course 1 credit:'))
 if temp== "A":
  g =4.0
 elif temp =="A-":
@@ -18,9 +18,9 @@ elif temp =="D":
  g=1.0
 else :
  g=0
-print (f'Enter your course 1 letter grade:{temp}\nEnter your course 1 credit:{c1}\nGrade point for course 1 is{g}')
-temp1 =input('Enter your course 2 letter grade:\n')
-c2=float(input('Enter your course 2 credit:\n'))
+print (f'Enter your course 1 letter grade:{temp} Enter your course 1 credit:{c1} Grade point for course 1 is{g}')
+temp1 =input('Enter your course 2 letter grade:')
+c2=float(input('Enter your course 2 credit:'))
 if temp1== "A":
  g1 =4.0
 elif temp1 =="A-":
@@ -39,9 +39,9 @@ elif temp1 =="D":
  g1=1.0
 else :
  g1=0
-print(f'Enter your course 2 letter grade:{temp1}\nEnter your course 2 credit:{c2}\nGrade point for course is{g1}')
-temp2 =input('Enter your course 3 letter grade:\n')
-c3=float(input('Enter your course 3 credit:\n'))
+print(f'Enter your course 2 letter grade:{temp1} Enter your course 2 credit:{c2} Grade point for course is{g1}')
+temp2 =input('Enter your course 3 letter grade:')
+c3=float(input('Enter your course 3 credit: '))
 if temp2== "A":
  g2 =4.0
 elif temp2 =="A-":
@@ -60,6 +60,6 @@ elif temp2 =="D":
  g2=1.0
 else :
  g2=0
-print(f"Enter your course 2 letter grade:{temp1}\nEnter your course 3 credit:{c3}\nGrade point for course 3 is{g2}")
+print(f"Enter your course 2 letter grade:{temp1} Enter your course 3 credit:{c3} Grade point for course 3 is{g2}")
 GPA=((g*c1)+(g1*c2)+(g2*c3))/(c1+c2+c3)
 print(f"Your GPA is:{GPA}")
