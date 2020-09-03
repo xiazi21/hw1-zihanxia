@@ -59,4 +59,4 @@ elif temp2 =="D":
 else :
  g2=0
 GPA=((g*c1)+(g1*c2)+(g2*c3))/(c1+c2+c3)
-print('Your GPA is:%f',GPA)
+print(F"Enter your course 1 letter grade:{g}\nEnter your course 1 credit:{c1}\nEnter your course 2 letter grade:{g1}\nEnter your course 2 credit:{c2}\nEnter your course 3 letter grade:{g2}\nEnter your course 3 credit:{c3}\nYour GPA is:{GPA}")
